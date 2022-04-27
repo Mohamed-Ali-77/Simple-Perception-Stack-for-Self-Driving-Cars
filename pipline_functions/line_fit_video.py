@@ -8,7 +8,7 @@ from perspective_transform import perspective_transform
 from Line import Line
 from line_fit import line_fit, tune_fit, final_viz, calc_curve, calc_vehicle_offset
 from moviepy.editor import VideoFileClip
-
+import sys
 
 # Global variables (just to make the moviepy video annotation work)
 with open('calibrate_camera.p', 'rb') as f:
@@ -101,13 +101,4 @@ def annotate_video(input_file, output_file):
 
 if __name__ == '__main__':
 	# Annotate the video
-	annotate_video('project_video.mp4', 'out.mp4')
-
-	# Show example annotated image on screen for sanity check
-	img_file = 'test_images/test2.jpg'
-	img = mpimg.imread(img_file)
-	result = annotate_image(img)
-	result = annotate_image(img)
-	result = annotate_image(img)
-	plt.imshow(result)
-	plt.show()
+	annotate_video(sys.argv[1], sys.argv[2])
