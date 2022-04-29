@@ -17,3 +17,9 @@ Phase 1 - Lane line detection:
 | Mohamed Ali Ahmed Bakr |  1801534 | [Mohamed-Ali-77](https://github.com/Mohamed-Ali-77)     |
 | Mo'men waleed mamdouh abdelaziz|   1802418  | [Moamenhimself](https://github.com/Moamenhimself)   |
 
+# Check the preformance of the code 
+
+## Output video
+https://youtu.be/J0U0mxnsTcM
+## Stacked video
+https://youtu.be/bV-iakyRaTY
