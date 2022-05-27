@@ -101,4 +101,6 @@ def annotate_video(input_file, output_file):
 
 if __name__ == '__main__':
 	# Annotate the video
-	annotate_video(sys.argv[1], sys.argv[2])
+	#e.g:python line_fit_video.py project_video.mp4 project_output_video.mp4 1
+	if sys.argv[3] == 1:
+		annotate_video(sys.argv[1], sys.argv[2])
