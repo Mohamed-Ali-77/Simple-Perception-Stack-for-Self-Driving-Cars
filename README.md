@@ -11,7 +11,7 @@ Phase 1 - Lane line detection:
 * Warp the detected lane boundaries back onto the original image.
 * Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.  
 
-Phase 2 - Car Ddetection:
+Phase 2 - Cars Detection:
 
 
 ## List of Contributors
