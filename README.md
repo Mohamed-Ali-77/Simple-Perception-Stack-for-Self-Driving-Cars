@@ -12,6 +12,7 @@ Phase 1 - Lane line detection:
 * Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.  
 
 Phase 2 - Cars Detection:
+Using YOLOv3 to detect cars in the video stream.
 
 
 ## List of Contributors
@@ -22,7 +23,12 @@ Phase 2 - Cars Detection:
 
 # Check the preformance of the code 
 
+# Phase 1 - Lane line detection
 ## Output video
 https://youtu.be/J0U0mxnsTcM
 ## Stacked video
 https://youtu.be/bV-iakyRaTY
+
+# Phase 2 - Cars Detection
+## Output video
+![](demo_2.gif)
